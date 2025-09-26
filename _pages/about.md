@@ -21,10 +21,10 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 ---
 
 Hi! My name is Guoliang Zou (邹国梁). I’m a Ph.D. student from School of Computer Science and Artificial Intelligence, Zhengzhou University, China. Currently, I’m a student of Professor Ye [[website]](https://www5.zzu.edu.cn/mlis/){:target="\_blank"}.
