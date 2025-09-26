@@ -2,96 +2,89 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Yunfan Li
+    - name: Institution
+      value: Sichuan University
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
+      institution: Schoold of Computer Science, Sichuan University
+      year: 2020-Now
+    - title: Bachelor
+      institution: Schoold of Computer Science, Sichuan University
+      year: 2016-2020
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - year: 2023
+      items: 
+        - Gold Prize in NeurIPS 2023 Competion - Single-Cell Perturbations <a href="https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/overview">[Link]</a>
+        - Sichuan University Tecent Scholarship (Special Grade)
+    - year: 2022
+      items: 
+        - National Scholarship <a href="https://mp.weixin.qq.com/s/UCpAdDwB5u3jaraxij8SYw">[Link]</a>
+    - year: 2021
+      items: 
+        - Sichuan University PhD Innovation Scholarship 
+    - year: 2018
+      items: 
+        - Silver Prize in China Collegiate Programming Contest (CCPC) <a href="https://ccpc.io/index.php/a/66.html">[Link]</a>
+        - Silver Prize in CCF Collegiate Computer Systems & Programming contest (CCF-CCSP) <a href="https://www.ccf.org.cn/c/2018-10-31/653610.shtml">[Link]</a>
+        - Bronze Prize in International Collegiate Programming Contest (ICPC) <a href="https://icpc.global/regionals/finder/beijing-2018/standings">[Link]</a>
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Unsupervised Learning
+      items: 
+        - Deep Clustering
+    - title: Bioinformatics
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Single-cell Analysis
 
-- title: Other Interests
-  type: list
+- title: Academic Services
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Conference Reviewer
+      items: 
+        - Conference on Neural Information Processing Systems (NeurIPS)
+        - International Conference on Learning Representations (ICLR)
+        - International Conference on Machine Learning (ICML)
+        - International Conference on Computer Vision (ICCV)
+        - European Conference on Computer Vision (ECCV)
+        - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+        - AAAI Conference on Artificial Intelligence (AAAI)
+        - ACM Multimedia Conference (ACMMM)
+        - International Conference on Applied Artificial Intelligence (AICONF)
+        - Asian Conference on Machine Learning (ACML)
+        - Asian Conference on Computer Vision (ACCV)
+        - Chinese Conference on Pattern Recognition and Computer Vision (PRCV)
+        - International Conference on Pattern Recognition (ICPR)
+        - International Conference on Image and Graphics (ICIG)
+        - International Conference on Artificial Intelligence (CICAI)
+    - title: Journal Reviewer
+      items:
+        - IEEE Transactions on Pattern Analysis and Machine Intelligence
+        - IEEE Transactions on Image Processing
+        - IEEE Transactions on Neural Networks and Learning Systems
+        - "IEEE Transactions on Systems, Man and Cybernetics: Systems"
+        - IEEE Transactions on Circuits and Systems for Video Technology
+        - IEEE Transactions on Emerging Topics in Computing
+        - Chinese Journal of Computers (计算机学报)
+        - Neural Networks
+        - BMC Bioinformatics
+        - CAAI Transactions on Intelligence Technology
+        - IEEE/CAA Journal of Automatica Sinica
+        - ​IET Computer Vision
+        - Machine Vision and Applications
+        - Engineering Applications of Artificial Intelligence
+        - Scientific Report
+        - IEEE Access
+        - SN Computer Science
+        - SN Machine Learning
+    - title: Talks
+      items:
+        - "2025 AI for Life Science Seminar"
+        - "2021 VALSE Workshop: Unsupervised Learning"
