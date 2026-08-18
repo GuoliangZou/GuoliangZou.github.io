@@ -2,7 +2,7 @@
 title = "Guoliang Zou"
 description = "PhD student at Zhengzhou University."
 favicon = "/favicon.svg"
-motto = "Everyone has their own thoughts! Do yourself!"
+
 
 [author]
 name = "Guoliang Zou"
@@ -14,16 +14,10 @@ avatar = "/hosthead.jpg"
 # Contact information (leave blank or delete to hide)
 
 email = "jimmyopop8@gmail.com"
-location = "Zhengzhou, Henan"
-location_url = "https://maps.google.com"
-location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
-]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
+google_scholar = "https://scholar.google.com/citations?user=ChA60R4AAAAJ&hl=zh-CN"
+orcid = "https://0000-0002-6633-4711.org"
+github = "https://github.com/GuoliangZou"
+
 
 [features]
 # Show a like button on the about page
@@ -33,7 +27,7 @@ enable_likes = true
 enable_one_page_mode = false
 
 [i18n]
-enabled = true
+enabled = False
 locales = ["zh", "en"]
 default_locale = "en"
 # "auto" means the locale will be determined by the browser's language setting, "fixed" means the locale will be fixed to the default locale (but can be switched still, if you want to disable, set "enable=false")
