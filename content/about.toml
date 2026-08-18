@@ -34,3 +34,8 @@ type = "markdown"
 title = "Honors and Awards"
 source = "honorsawards.md"
 
+[[sections]]
+id = "services"
+type = "markdown"
+title = "Academic Services"
+source = "services.md"
