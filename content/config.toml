@@ -58,25 +58,20 @@ href = "/"
 title = "Publications"
 type = "page"
 target = "publications"
-href = "/publications"
+href = "/"
 
-[[navigation]]
-title = "Teaching"
-type = "page"
-target = "teaching"
-href = "/teaching"
 
 [[navigation]]
 title = "Awards"
 type = "page"
 target = "awards"
-href = "/awards"
+href = "/"
 
 [[navigation]]
 title = "Services"
 type = "page"
 target = "services"
-href = "/services"
+href = "/"
 
 [[navigation]]
 title = "CV"

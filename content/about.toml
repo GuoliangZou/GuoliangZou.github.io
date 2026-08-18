@@ -12,14 +12,13 @@ research_interests = [
 id = "about"
 type = "markdown"
 source = "bio.md"
-title = "About"
+title = "About Me"
 
 [[sections]]
 id = "news"
 type = "list"
 title = "News"
 source = "news.toml"
-
 
 [[sections]]
 id = "featured_publications"
@@ -35,13 +34,14 @@ title = "Honors and Awards"
 source = "honorsawards.md"
 
 [[sections]]
+id = "educations"
+type = "markdown"
+title = " Educations"
+source = "educations.md"
+
+[[sections]]
 id = "services"
 type = "markdown"
 title = "Academic Services"
 source = "services.md"
 
-[[sections]]
-id = "educations"
-type = "markdown"
-title = " Educations"
-source = "educations.md"
