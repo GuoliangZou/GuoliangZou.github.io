@@ -58,14 +58,15 @@ href = "/"
 title = "Publications"
 type = "page"
 target = "publications"
-href = "/"
+href = "/publications"
 
 
 [[navigation]]
 title = "Awards"
-type = "page"
-target = "awards"
-href = "/"
+type = "link"
+href = "/#honors_and_awards"
+
+
 
 [[navigation]]
 title = "Services"
