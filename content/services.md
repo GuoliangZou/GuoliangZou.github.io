@@ -1,5 +1,7 @@
-- **河南省自然青年学生科学基金项目(262300422748)** - 主持 (*2026*)
-- **郑州大学青年学生基础研究项目种子项目(ZZXM202532)** - 主持 (*2025*)
-- **Outstanding Graduate of Henan Province**  (*2023*)
-- **Outstanding Graduate of Zhengzhou University**  (*2023*)
-- **Outstanding Graduate of Henan Province**  (*2020*)
+- Conference Reviewer:
+    - AAAI Conference on Artificial Intelligence (AAAI)
+    - ACM Multimedia Conference (ACMMM)
+- Journal Reviewer:
+    - IEEE Transactions on Neural Networks and Learning Systems
+    - IEEE Transactions on Circuits and Systems for Video Technology
+    - Neurocomputing
