@@ -39,3 +39,9 @@ id = "services"
 type = "markdown"
 title = "Academic Services"
 source = "services.md"
+
+[[sections]]
+id = "educations"
+type = "markdown"
+title = " Educations"
+source = "educations.md"
