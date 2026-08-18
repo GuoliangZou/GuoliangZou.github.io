@@ -1,5 +1,3 @@
-
-
 - *2023 - Present*, PhD candidate in Software Engineering, **Zhengzhou University**
 - *2020 - 2023*, Master in Engineering, **Zhengzhou University**
 - *2016 - 2020*, BSc in Computer Science and Technology, **Zhengzhou University of Light Industry**
