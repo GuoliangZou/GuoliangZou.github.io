@@ -1,0 +1,5 @@
+- **河南省自然青年学生科学基金项目(262300422748) <a href="https://kjt.henan.gov.cn/2026/03-06/3331976.html">[Link]</a>** - 主持 (*2026*)
+- **郑州大学青年学生基础研究项目种子项目(ZZXM202532)** - 主持 (*2025*)
+- **Outstanding Graduate of Henan Province**  (*2023*)
+- **Outstanding Graduate of Zhengzhou University**  (*2023*)
+- **Outstanding Graduate of Henan Province**  (*2020*)

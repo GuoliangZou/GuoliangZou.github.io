@@ -30,7 +30,7 @@ limit = 180
 
 [[sections]]
 id = "honors_and_awards"
-type = "list"
+type = "markdown"
 title = "Honors and Awards"
-source = "awards.toml"
+source = "honorsawards.md"
 
