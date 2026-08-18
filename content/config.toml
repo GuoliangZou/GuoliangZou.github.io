@@ -65,7 +65,7 @@ href = "/publications"
 title = "Awards"
 type = "link"
 target = "awards"
-href = "/#awards"
+href = "/about/#awards"
 
 
 
