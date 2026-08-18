@@ -15,11 +15,7 @@ source = "bio.md"
 title = "About Me"
 
 
-[[sections]]
-id = "news"
-type = "list"
-title = "News"
-source = "news.toml"
+
 
 
 [[sections]]
