@@ -1,6 +1,6 @@
 [site]
 title = "Guoliang Zou"
-description = "PhD student at Zhengzhou University."
+description = "PhD student at the University of Example."
 favicon = "/favicon.svg"
 last_updated = "November 18, 2025"
 
@@ -23,8 +23,6 @@ location_details = [
 google_scholar = "https://scholar.google.com/citations?user=ChA60R4AAAAJ&hl=zh-CN"
 orcid = "https://0000-0002-6633-4711.org"
 github = "https://github.com/GuoliangZou"
-location = "City, Country"
-location_url = "https://maps.google.com"
 linkedin = "https://linkedin.com"
 
 [features]
@@ -60,7 +58,7 @@ href = "/"
 title = "Publications"
 type = "page"
 target = "publications"
-href = "/publications"
+href = "/"
 
 
 [[navigation]]
@@ -68,8 +66,6 @@ title = "Awards"
 type = "page"
 target = "awards"
 href = "/"
-
-
 
 [[navigation]]
 title = "Services"
@@ -81,4 +77,4 @@ href = "/"
 title = "CV"
 type = "page"
 target = "cv"
-href = "/cv"
+href = "/"
