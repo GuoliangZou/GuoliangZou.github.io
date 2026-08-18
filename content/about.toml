@@ -16,7 +16,7 @@ title = "About Me"
 
 [[sections]]
 id = "news"
-type = "markdown"
+type = "html"
 title = "News"
 source = "news.md"
 
