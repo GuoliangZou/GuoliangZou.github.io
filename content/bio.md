@@ -1,5 +1,3 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+Hi! My name is Guoliang Zou (邹国梁). I am a Ph.D. student from School of Computer Science and Artificial Intelligence, Zhengzhou University, China, under the supervision of [Professor Ye](https://www5.zzu.edu.cn/mlis/) and the co-supervision of [Research Fellow Hu](https://shizhehu.github.io/).
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
-
-My current research focuses on investigating the mathematical principles of natural philosophy.
+My current research focuses on information bottleneck theory, trusted multi-modal learning, continual learning, multi-modal learning and clustering
