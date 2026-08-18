@@ -16,9 +16,9 @@ title = "About Me"
 
 [[sections]]
 id = "news"
-type = "list"
+type = "markdown"
 title = "News"
-source = "news.toml"
+source = "news.md"
 
 [[sections]]
 id = "featured_publications"
