@@ -25,3 +25,9 @@ title = "Example Award"
 subtitle = "Organization"
 date = "2022"
 content = "Description of the award."
+
+[[items]]
+title = "Example Award"
+subtitle = "Organization"
+date = "2022"
+content = "Description of the award."

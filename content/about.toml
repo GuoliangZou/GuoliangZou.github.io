@@ -28,5 +28,9 @@ title = "Selected Publications"
 filter = "selected"
 limit = 180
 
-
+[[sections]]
+id = "honors_and_awards"
+type = "list"
+title = "Honors and Awards"
+source = "awards.toml"
 
