@@ -14,16 +14,10 @@ avatar = "/hosthead.jpg"
 # Contact information (leave blank or delete to hide)
 
 email = "jimmyopop8@gmail.com"
-location = "City, Country"
-location_url = "https://maps.google.com"
-location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
-]
 google_scholar = "https://scholar.google.com/citations?user=ChA60R4AAAAJ&hl=zh-CN"
 orcid = "https://0000-0002-6633-4711.org"
 github = "https://github.com/GuoliangZou"
-linkedin = "https://linkedin.com"
+
 
 [features]
 # Show a like button on the about page
