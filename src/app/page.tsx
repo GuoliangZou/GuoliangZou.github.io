@@ -41,18 +41,15 @@ function processSections(sections: SectionConfig[], locale?: string): SectionCon
         };
       case 'publications': {
         const bibtex = getBibtexContent('publications.bib', locale);
-
         // Selected Publications follows the order in publications.bib
         const allPubs = parseBibTeX(
           bibtex,
           locale,
           section.filter !== 'selected'
         );
-
         const filteredPubs = section.filter === 'selected'
           ? allPubs.filter((p) => p.selected)
           : allPubs;
-
         return {
           ...section,
           publications: filteredPubs.slice(0, section.limit || 5),
