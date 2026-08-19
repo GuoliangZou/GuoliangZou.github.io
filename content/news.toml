@@ -20,6 +20,7 @@ green = ["Information Fusion (SCI-Q1, TOP)"]
 date = "2026-2"
 content = "A Henan Provincial Youth Student Science Foundation Project is obtained, 2026."
 bold = ["Henan Provincial Youth Student Science Foundation Project"]
+green = ["obtained"]
 
 [[news]]
 date = "2025-12"
@@ -37,6 +38,7 @@ green = ["the 40th AAAI [Oral] (CCF A)"]
 date = "2025-9"
 content = "A Zhengzhou University Young Student Basic Research Projects (PhD students) Seed Projects is obtained, 2025."
 bold = ["Zhengzhou University Young Student Basic Research Projects (PhD students) Seed Projects"]
+green = ["obtained"]
 
 [[news]]
 date = "2025-9"
