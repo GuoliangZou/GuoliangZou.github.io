@@ -52,29 +52,29 @@ en = "English"
 title = "About"
 type = "page"
 target = "about"
-href = "/"
+href = "/#about"
 
 [[navigation]]
 title = "Publications"
 type = "page"
 target = "publications"
-href = "/"
+href = "/#featured_publications"
 
 
 [[navigation]]
 title = "Awards"
 type = "page"
 target = "awards"
-href = "/"
+href = "/#honors_and_awards"
 
 [[navigation]]
 title = "Services"
 type = "page"
 target = "services"
-href = "/"
+href = "/#services"
 
 [[navigation]]
 title = "CV"
 type = "page"
 target = "cv"
-href = "/"
+href = "/cv"

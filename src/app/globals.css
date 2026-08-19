@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* Smooth scrolling for homepage navigation anchors */
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Georgia CDN";
   src: url("https://jialeliu.com/fonts/georgiab.woff2") format("woff2");

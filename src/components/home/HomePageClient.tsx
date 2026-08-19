@@ -1,5 +1,7 @@
 'use client';
 
+import type { ReactNode } from 'react';
+
 import Profile from '@/components/home/Profile';
 import About from '@/components/home/About';
 import SelectedPublications from '@/components/home/SelectedPublications';
@@ -69,35 +71,49 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
           {data.pagesToShow.map((page) => (
             <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8">
               {page.type === 'about' && page.sections.map((section: SectionConfig) => {
+                let sectionContent: ReactNode = null;
+
                 switch (section.type) {
                   case 'markdown':
-                    return (
+                    sectionContent = (
                       <About
-                        key={section.id}
                         content={section.content || ''}
                         title={section.title}
                       />
                     );
+                    break;
                   case 'publications':
-                    return (
+                    sectionContent = (
                       <SelectedPublications
-                        key={section.id}
                         publications={section.publications || []}
                         title={section.title}
                         enableOnePageMode={data.enableOnePageMode}
                       />
                     );
+                    break;
                   case 'list':
-                    return (
+                    sectionContent = (
                       <News
-                        key={section.id}
                         items={section.items || []}
                         title={section.title}
                       />
                     );
+                    break;
                   default:
                     return null;
                 }
+
+                // The outer page already owns id="about". Other homepage sections
+                // receive their own anchors so navbar links can jump directly to them.
+                return (
+                  <div
+                    key={section.id}
+                    id={section.id === page.id ? undefined : section.id}
+                    className="scroll-mt-24"
+                  >
+                    {sectionContent}
+                  </div>
+                );
               })}
               {page.type === 'publication' && (
                 <PublicationsList
