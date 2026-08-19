@@ -8,7 +8,6 @@ export interface NewsItem {
     content: string;
     bold?: string[];
     green?: string[];
-    red?: string[];
 }
 
 interface NewsProps {
@@ -19,9 +18,8 @@ interface NewsProps {
 function renderFormattedContent(item: NewsItem) {
     const boldTexts = item.bold || [];
     const greenTexts = item.green || [];
-    const redTexts = item.red || [];
 
-    const targets = [...boldTexts, ...greenTexts, ...redTexts]
+    const targets = [...boldTexts, ...greenTexts]
         .filter(Boolean)
         .sort((a, b) => b.length - a.length);
 
@@ -51,18 +49,6 @@ function renderFormattedContent(item: NewsItem) {
                     key={index}
                     className="font-medium"
                     style={{ color: '#008000' }}
-                >
-                    {part}
-                </span>
-            );
-        }
-
-        if (redTexts.includes(part)) {
-            return (
-                <span
-                    key={index}
-                    className="font-medium"
-                    style={{ color: '#d00000' }}
                 >
                     {part}
                 </span>

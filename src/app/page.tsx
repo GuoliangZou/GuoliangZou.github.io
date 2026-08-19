@@ -23,7 +23,6 @@ interface NewsItem {
   content: string;
   bold?: string[];
   green?: string[];
-  red?: string[];
 }
 
 type PageData =
