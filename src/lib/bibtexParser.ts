@@ -107,7 +107,21 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
     });
 
     return publication;
-  });
+  }).sort((a: Publication, b: Publication) => {
+  // Sort by year (descending), then by month if available
+  if (b.year !== a.year) return b.year - a.year;
+
+  // For month comparison, treat missing months as January (1)
+  const monthA = typeof a.month === 'string' ?
+    (monthMapping[a.month.toLowerCase()] || parseInt(a.month) || 1) :
+    (a.month || 1);
+
+  const monthB = typeof b.month === 'string' ?
+    (monthMapping[b.month.toLowerCase()] || parseInt(b.month) || 1) :
+    (b.month || 1);
+
+  return monthB - monthA;
+});
 }
 
 function getHighlightNames(locale?: string): string[] {
