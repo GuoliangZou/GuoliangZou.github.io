@@ -1,3 +1,3 @@
 Hi! My name is Guoliang Zou (邹国梁). I am a Ph.D. student from School of Computer Science and Artificial Intelligence, Zhengzhou University, China, under the supervision of [Professor Ye](https://www5.zzu.edu.cn/mlis/) and the co-supervision of [Research Fellow Hu](https://shizhehu.github.io/).
 
-My current research focuses on information bottleneck theory, trusted multi-modal learning, continual learning, multi-modal learning and clustering
+My current research focuses on information bottleneck theory, trusted multi-modal learning, continual learning, multi-modal learning and clustering.
