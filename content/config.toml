@@ -55,6 +55,13 @@ target = "about"
 href = "/#about"
 
 [[navigation]]
+title = "News"
+type = "page"
+target = "news"
+href = "/#news"
+
+
+[[navigation]]
 title = "Publications"
 type = "page"
 target = "publications"
@@ -62,13 +69,20 @@ href = "/#featured_publications"
 
 
 [[navigation]]
-title = "Awards"
+title = "Honors and Awards"
 type = "page"
 target = "awards"
 href = "/#honors_and_awards"
 
+
 [[navigation]]
-title = "Services"
+title = "Educations"
+type = "page"
+target = "educations"
+href = "/#educations"
+
+[[navigation]]
+title = "Academic Services"
 type = "page"
 target = "services"
 href = "/#services"
