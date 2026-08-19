@@ -30,7 +30,7 @@ linkedin = "https://linkedin.com"
 enable_likes = false
 
 # Display all subpages on a single page
-enable_one_page_mode = ture
+enable_one_page_mode = false
 
 [i18n]
 enabled = false
