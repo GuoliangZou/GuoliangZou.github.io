@@ -68,7 +68,6 @@ green = ["the 32nd ACM Multimedia (CCF A)"]
 [[news]]
 date = "2024-01"
 content = "One paper is accepted by IEEE Transactions on Neural Networks and Learning Systems (SCI-Q1, TOP), 2024."
->>>>>>> parent of 6fdbd24 (Update news.toml)
 bold = ["One paper"]
 green = ["IEEE Transactions on Neural Networks and Learning Systems (SCI-Q1, TOP)"]
 
