@@ -76,12 +76,6 @@ export default function Profile({ author, social, features, researchInterests }:
             icon: EnvelopeIcon,
             isEmail: true,
         }] : []),
-        ...(social.location || social.location_details ? [{
-            name: messages.profile.location,
-            href: social.location_url || '#',
-            icon: MapPinIcon,
-            isLocation: true,
-        }] : []),
         ...(social.google_scholar ? [{
             name: 'Google Scholar',
             href: social.google_scholar,
@@ -96,11 +90,6 @@ export default function Profile({ author, social, features, researchInterests }:
             name: 'GitHub',
             href: social.github,
             icon: Github,
-        }] : []),
-        ...(social.linkedin ? [{
-            name: 'LinkedIn',
-            href: social.linkedin,
-            icon: Linkedin,
         }] : []),
     ];
 
