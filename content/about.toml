@@ -3,9 +3,10 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Computational Physics",
-  "Mathematical Principles",
-  "Proof of Theorems"
+  "Information Bottleneck Theory",
+  "Trusted Multi-modal Learning",
+  "Continual Learning",
+  "Multi-modal Learning and Clustering"
 ]
 
 [[sections]]
