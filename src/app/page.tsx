@@ -21,6 +21,8 @@ interface SectionConfig {
 interface NewsItem {
   date: string;
   content: string;
+  bold?: string[];
+  green?: string[];
 }
 
 type PageData =
