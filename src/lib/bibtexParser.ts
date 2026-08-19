@@ -111,7 +111,7 @@ export function parseBibTeX(
     });
 
     return publication;
-  })
+  });
   // Selected Publications can preserve the original BibTeX order
   if (!sortByDate) {
     return publications;
