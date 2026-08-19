@@ -56,16 +56,16 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-        <div className="lg:col-span-1">
-          <Profile
-            author={data.author}
-            social={data.social}
-            features={data.features}
-            researchInterests={data.researchInterests}
-          />
-        </div>
+  <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen">
+    <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 xl:gap-12">
+      <div className="lg:col-span-4">
+        <Profile
+          author={data.author}
+          social={data.social}
+          features={data.features}
+          researchInterests={data.researchInterests}
+        />
+      </div>
 
         <div className="lg:col-span-2 space-y-8">
           {data.pagesToShow.map((page) => (
