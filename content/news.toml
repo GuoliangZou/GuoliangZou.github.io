@@ -34,7 +34,7 @@ green = ["Information Processing & Management (SCI-Q1, TOP)"]
 [[news]]
 date = "2025-12"
 content = "One paper was accepted by the 40th AAAI [Oral] (CCF A), 2026."
-bold = ["One paper"]
+bold = ["One paper", "[Oral]"]
 green = ["the 40th AAAI [Oral] (CCF A)"]
 
 
@@ -75,7 +75,7 @@ green = ["IEEE Transactions on Neural Networks and Learning Systems (SCI-Q1, TOP
 [[news]]
 date = "2023-05"
 content = "One paper was accepted by Information Processing & Management [Highly Cited Paper] (SCI-Q1, TOP), 2023."
-bold = ["One paper"]
+bold = ["One paper", "[Highly Cited Paper]"]
 green = ["Information Processing & Management [Highly Cited Paper] (SCI-Q1, TOP)"]
 
 
