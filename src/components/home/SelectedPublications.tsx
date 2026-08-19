@@ -65,6 +65,27 @@ export default function SelectedPublications({ publications, title, enableOnePag
                                 {pub.description}
                             </p>
                         )}
+                        {(pub.sci || pub.jcr || pub.ccf) && (
+                            <div className="flex justify-end items-center gap-2 mt-2">
+                                {pub.sci && (
+                                    <span className="inline-flex items-center px-2 py-0.5 text-xs font-medium rounded border border-rose-200 bg-rose-50 text-rose-700">
+                                        SCI-{pub.sci}
+                                    </span>
+                                )}
+
+                                {pub.jcr && (
+                                    <span className="inline-flex items-center px-2 py-0.5 text-xs font-medium rounded border border-sky-200 bg-sky-50 text-sky-700">
+                                        JCR-{pub.jcr}
+                                    </span>
+                                )}
+
+                                {pub.ccf && (
+                                    <span className="inline-flex items-center px-2 py-0.5 text-xs font-medium rounded border border-amber-200 bg-amber-50 text-amber-700">
+                                        CCF-{pub.ccf}
+                                    </span>
+                                )}
+                            </div>
+                        )}
                     </motion.div>
                 ))}
             </div>
