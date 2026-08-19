@@ -96,8 +96,7 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       ccf: cleanBibTeXString(tags.ccf),
 
       // Store original BibTeX (excluding custom fields)
-      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code', 'sci', 'jcr', 'ccf']
-),
+      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code', 'sci', 'jcr', 'ccf']),
     };
 
     // Clean up undefined fields

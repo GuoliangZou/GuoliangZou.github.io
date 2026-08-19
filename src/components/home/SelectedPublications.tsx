@@ -69,7 +69,7 @@ export default function SelectedPublications({ publications, title, enableOnePag
                             <div className="flex justify-end items-center gap-2 mt-2">
                                 {pub.sci && (
                                     <span className="inline-flex items-center px-2 py-0.5 text-xs font-medium rounded border border-rose-200 bg-rose-50 text-rose-700">
-                                        SCI-{pub.sci}
+                                        中科院-{pub.sci}
                                     </span>
                                 )}
 
