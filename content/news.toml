@@ -1,8 +1,8 @@
 [[news]]
 date = "2026-07"
-content = "One paper is accepted by Pattern Recognition (SCI-Q1, TOP), 2026."
+content = "One paper is accepted by Pattern Recognition (中科院 1区, TOP), 2026."
 bold = ["One paper"]
-green = ["Pattern Recognition (SCI-Q1, TOP)"]
+green = ["Pattern Recognition (中科院 1区, TOP)"]
 
 [[news]]
 date = "2026-07"
@@ -13,9 +13,9 @@ green = ["the 34th ACM Multimedia (CCF A)"]
 
 [[news]]
 date = "2026-06"
-content = "One paper is accepted by Information Fusion (SCI-Q1, TOP), 2026."
+content = "One paper is accepted by Information Fusion (中科院 1区, TOP), 2026."
 bold = ["One paper"]
-green = ["Information Fusion (SCI-Q1, TOP)"]
+green = ["Information Fusion (中科院 1区, TOP)"]
 
 
 [[news]]
@@ -26,9 +26,9 @@ green =["河南省自然青年学生科学基金项目"]
 
 [[news]]
 date = "2025-12"
-content = "One paper is accepted by Information Processing & Management (SCI-Q1, TOP), 2026."
+content = "One paper is accepted by Information Processing & Management (中科院 1区, TOP), 2026."
 bold = ["One paper"]
-green = ["Information Processing & Management (SCI-Q1, TOP)"]
+green = ["Information Processing & Management (中科院 1区, TOP)"]
 
 
 [[news]]
@@ -46,9 +46,9 @@ green =["郑州大学青年学生基础研究项目种子项目"]
 
 [[news]]
 date = "2025-09"
-content = "One paper is accepted by Information Sciences (SCI-Q2), 2025."
+content = "One paper is accepted by Information Sciences (中科院 2区), 2025."
 bold = ["One paper"]
-green = ["Information Sciences (SCI-Q2)"]
+green = ["Information Sciences (中科院 2区)"]
 
 
 [[news]]
@@ -67,16 +67,16 @@ green = ["the 32nd ACM Multimedia (CCF A)"]
 
 [[news]]
 date = "2024-01"
-content = "One paper is accepted by IEEE Transactions on Neural Networks and Learning Systems (SCI-Q1, TOP), 2024."
+content = "One paper is accepted by IEEE Transactions on Neural Networks and Learning Systems (中科院 1区, TOP), 2024."
 bold = ["One paper"]
-green = ["IEEE Transactions on Neural Networks and Learning Systems (SCI-Q1, TOP)"]
+green = ["IEEE Transactions on Neural Networks and Learning Systems (中科院 1区, TOP)"]
 
 
 [[news]]
 date = "2023-05"
-content = "One paper is accepted by Information Processing & Management [Highly Cited Paper] (SCI-Q1, TOP), 2023."
+content = "One paper is accepted by Information Processing & Management [Highly Cited Paper] (中科院 1区, TOP), 2023."
 bold = ["One paper", "[Highly Cited Paper]"]
-green = ["Information Processing & Management [Highly Cited Paper] (SCI-Q1, TOP)"]
+green = ["Information Processing & Management [Highly Cited Paper] (中科院 1区, TOP)"]
 
 
 [[news]]
