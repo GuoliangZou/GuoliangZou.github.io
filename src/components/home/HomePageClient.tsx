@@ -67,7 +67,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
         />
       </div>
 
-        <div className="lg:col-span-2 space-y-8">
+        <div className="lg:col-span-8 space-y-8">
           {data.pagesToShow.map((page) => (
             <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8">
               {page.type === 'about' && page.sections.map((section: SectionConfig) => {
