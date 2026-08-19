@@ -112,12 +112,12 @@ export default function Profile({ author, social, features, researchInterests }:
             className="sticky top-8"
         >
             {/* Profile Image */}
-           <div className="w-52 h-52 sm:w-56 sm:h-56 mx-auto mb-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105">
+           <div className="w-52 h-60 sm:w-56 sm:h-64 mx-auto mb-5 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105">
                 <Image
                     src={author.avatar}
                     alt={author.name}
                     width={224}
-                    height={224}
+                    height={256}
                     className="w-full h-full object-cover object-center"
                     priority
                 />
