@@ -36,11 +36,15 @@ const monthMapping: Record<string, number> = {
   dec: 12, december: 12,
 };
 
-export function parseBibTeX(bibtexContent: string, locale?: string): Publication[] {
+export function parseBibTeX(
+  bibtexContent: string,
+  locale?: string,
+  sortByDate: boolean = true
+): Publication[] {
   const highlightNames = getHighlightNames(locale);
   const entries = bibtexParse.toJSON(bibtexContent);
-
-  return entries.map((entry: { entryType: string; citationKey: string; entryTags: Record<string, string> }, index: number) => {
+  const publications = entries.map(
+  (entry: { entryType: string; citationKey: string; entryTags: Record<string, string> }, index: number) => {
     const tags = entry.entryTags;
 
     // Parse authors
@@ -107,22 +111,32 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
     });
 
     return publication;
-  }).sort((a: Publication, b: Publication) => {
-  // Sort by year (descending), then by month if available
-  if (b.year !== a.year) return b.year - a.year;
+  })
+  // Selected Publications can preserve the original BibTeX order
+  if (!sortByDate) {
+    return publications;
+  }
 
-  // For month comparison, treat missing months as January (1)
-  const monthA = typeof a.month === 'string' ?
-    (monthMapping[a.month.toLowerCase()] || parseInt(a.month) || 1) :
-    (a.month || 1);
+  // Other publication pages keep year/month descending order
+  return publications.sort((a: Publication, b: Publication) => {
+    if (b.year !== a.year) {
+      return b.year - a.year;
+    }
 
-  const monthB = typeof b.month === 'string' ?
-    (monthMapping[b.month.toLowerCase()] || parseInt(b.month) || 1) :
-    (b.month || 1);
+    const monthA =
+      typeof a.month === 'string'
+        ? (monthMapping[a.month.toLowerCase()] || parseInt(a.month) || 1)
+        : (a.month || 1);
 
-  return monthB - monthA;
-});
+    const monthB =
+      typeof b.month === 'string'
+        ? (monthMapping[b.month.toLowerCase()] || parseInt(b.month) || 1)
+        : (b.month || 1);
+
+    return monthB - monthA;
+  });
 }
+
 
 function getHighlightNames(locale?: string): string[] {
   const names = new Set<string>();
