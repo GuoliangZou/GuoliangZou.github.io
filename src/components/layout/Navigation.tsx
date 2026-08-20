@@ -217,29 +217,50 @@ export default function Navigation({
                         />
                       )}
                       {effectiveItems.map((item) => {
-                        const isActive = isDesktopItemActive(item);
-                        const href = getDesktopItemHref(item);
+                          const isActive = isDesktopItemActive(item);
+                          const href = getDesktopItemHref(item);
 
-                        return (
-                          <Link
-                            key={item.target}
-                            href={href}
-                            data-nav-href={href}
-                            prefetch={true}
-                            onClick={() => enableOnePageMode && setActiveHash(`#${item.target}`)}
-                            onMouseEnter={() => setHoveredHref(href)}
-                            className={cn(
+                          const linkClass = cn(
                               'relative px-3 py-2 text-sm font-medium rounded-lg transition-colors duration-150',
                               isActive
-                                ? 'text-primary'
-                                : hoveredHref === href
                                   ? 'text-primary'
-                                  : 'text-neutral-600'
-                            )}
-                          >
-                            {item.title}
-                          </Link>
-                        );
+                                  : hoveredHref === href
+                                      ? 'text-primary'
+                                      : 'text-neutral-600'
+                          );
+
+                          if (item.type === 'external') {
+                              return (
+                                  <a
+                                      key={item.target}
+                                      href={href}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      data-nav-href={href}
+                                      onMouseEnter={() => setHoveredHref(href)}
+                                      className={linkClass}
+                                  >
+                                      {item.title}
+                                  </a>
+                              );
+                          }
+
+                          return (
+                              <Link
+                                  key={item.target}
+                                  href={href}
+                                  data-nav-href={href}
+                                  prefetch={true}
+                                  onClick={() =>
+                                      enableOnePageMode &&
+                                      setActiveHash(`#${item.target}`)
+                                  }
+                                  onMouseEnter={() => setHoveredHref(href)}
+                                  className={linkClass}
+                              >
+                                  {item.title}
+                              </Link>
+                          );
                       })}
                     </div>
                     <LanguageToggle i18n={i18n} />
