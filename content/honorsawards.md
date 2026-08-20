@@ -5,9 +5,9 @@
 
 ### — Selected Honors
 
-- **Outstanding Graduate of Henan Province** — *2 times*
-- **Nominee for the Top Ten Outstanding Graduates** — selected among only 20 graduating students university-wide
 - **National Encouragement Scholarship**
+- **Nominee for the Top Ten Outstanding Graduates** — selected among only 20 graduating students university-wide
+- **Outstanding Graduate of Henan Province** — *2 times*
 - **First-Class Scholarship** — *7 times*
 - **Outstanding Graduate of Zhengzhou University**
 - **Outstanding Student of Henan Province**
