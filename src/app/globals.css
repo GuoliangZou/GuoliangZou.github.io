@@ -260,39 +260,63 @@ body {
 }
 
 /* education modual */
-.education-item {
-    display: grid;
-    grid-template-columns: 150px 1fr 260px;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 18px;
+/* Education table */
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.education-table th {
+    display: none;
+}
+
+
+.education-table td {
+    border: none;
+    padding: 8px 0;
     font-size: 15px;
 }
 
-.education-year {
+
+.education-table td:first-child {
+    width: 150px;
     color: #64748b;
 }
 
-.education-school {
+
+.education-table td:nth-child(2) {
     font-weight: 600;
     color: #1e293b;
 }
 
-.education-degree {
+
+.education-table td:last-child {
     text-align: right;
     color: #64748b;
 }
 
+.prose table {
+    width:100%;
+}
 
-@media (max-width: 768px) {
 
-    .education-item {
-        grid-template-columns: 1fr;
-        gap: 4px;
-    }
+.prose th {
+    display:none;
+}
 
-    .education-degree {
-        text-align: left;
-    }
 
+.prose td {
+    border:none;
+}
+
+
+.prose td:first-child {
+    width:150px;
+}
+
+
+.prose td:last-child {
+    text-align:right;
 }
