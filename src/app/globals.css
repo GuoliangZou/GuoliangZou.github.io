@@ -258,3 +258,41 @@ body {
   /* Soften card borders in dark mode only */
   border-color: rgba(148, 163, 184, 0.24);
 }
+
+/* education modual */
+.education-item {
+    display: grid;
+    grid-template-columns: 150px 1fr 260px;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 18px;
+    font-size: 15px;
+}
+
+.education-year {
+    color: #64748b;
+}
+
+.education-school {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.education-degree {
+    text-align: right;
+    color: #64748b;
+}
+
+
+@media (max-width: 768px) {
+
+    .education-item {
+        grid-template-columns: 1fr;
+        gap: 4px;
+    }
+
+    .education-degree {
+        text-align: left;
+    }
+
+}
