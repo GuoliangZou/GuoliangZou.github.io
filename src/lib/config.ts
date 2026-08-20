@@ -33,7 +33,7 @@ export interface SiteConfig {
   };
   navigation: Array<{
     title: string;
-    type: 'section' | 'page' | 'link';
+    type: 'section' | 'page' | 'link'| 'external';
     target: string;
     href: string;
   }>;

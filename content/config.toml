@@ -81,8 +81,10 @@ type = "page"
 target = "services"
 href = "/#services"
 
+
+
 [[navigation]]
 title = "CV"
-type = "page"
+type = "external"
 target = "cv"
-href = "/cv"
+href = "/Resume.pdf"
