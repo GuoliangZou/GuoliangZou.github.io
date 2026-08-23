@@ -54,6 +54,7 @@ export interface Publication {
   researchArea: ResearchArea;
   description?: string;
   sci?: string;
+  if?: string;
   jcr?: string;
   ccf?: string;
 }

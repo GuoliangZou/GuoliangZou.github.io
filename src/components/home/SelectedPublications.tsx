@@ -68,11 +68,16 @@ export default function SelectedPublications({ publications, title, enableOnePag
                             <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-0">
                                 {pub.journal || pub.conference}
                             </p>
-                            {(pub.sci || pub.jcr || pub.ccf) && (
+                            {(pub.sci || pub.if || pub.jcr || pub.ccf) && (
                                 <div className="flex items-center gap-2 shrink-0">
                                     {pub.sci && (
                                         <span className="inline-flex items-center px-2 py-0.5 text-xs font-medium rounded border border-rose-200 bg-rose-50 text-rose-700">
                                             中科院-{pub.sci}
+                                        </span>
+                                    )}
+                                    {pub.if && (
+                                        <span className="inline-flex items-center px-2 py-0.5 text-xs font-medium rounded border border-violet-200 bg-violet-50 text-violet-700">
+                                            IF-{pub.if}
                                         </span>
                                     )}
                                     {pub.jcr && (

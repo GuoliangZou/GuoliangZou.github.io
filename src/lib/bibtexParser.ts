@@ -96,11 +96,12 @@ export function parseBibTeX(
       selected,
       preview,
       sci: cleanBibTeXString(tags.sci),
+      if: cleanBibTeXString(tags.if),
       jcr: cleanBibTeXString(tags.jcr),
       ccf: cleanBibTeXString(tags.ccf),
 
       // Store original BibTeX (excluding custom fields)
-      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code', 'sci', 'jcr', 'ccf']),
+      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code', 'sci', 'if', 'jcr', 'ccf']),
     };
 
     // Clean up undefined fields
