@@ -8,6 +8,7 @@ export interface NewsItem {
     content: string;
     bold?: string[];
     green?: string[];
+    red?: string[];
 }
 
 interface NewsProps {
@@ -18,10 +19,11 @@ interface NewsProps {
 function renderFormattedContent(item: NewsItem) {
     const boldTexts = item.bold || [];
     const greenTexts = item.green || [];
+    const redTexts = item.red || [];
 
-    const targets = [...boldTexts, ...greenTexts]
-        .filter(Boolean)
-        .sort((a, b) => b.length - a.length);
+    const targets = [...boldTexts, ...greenTexts, ...redTexts]
+    .filter(Boolean)
+    .sort((a, b) => b.length - a.length);
 
     if (targets.length === 0) {
         return item.content;
@@ -54,7 +56,17 @@ function renderFormattedContent(item: NewsItem) {
                 </span>
             );
         }
-
+        if (redTexts.includes(part)) {
+            return (
+                <span
+                    key={index}
+                    className="font-bold"
+                    style={{ color: '#dc2626' }}
+                >
+                    {part}
+                </span>
+            );
+        }
         return <span key={index}>{part}</span>;
     });
 }

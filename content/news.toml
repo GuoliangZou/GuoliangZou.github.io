@@ -34,9 +34,9 @@ green = ["Information Processing & Management (中科院 1区, TOP)"]
 [[news]]
 date = "2025-12"
 content = "One paper is accepted by the 40th AAAI [Oral] (CCF A), 2026."
-bold = ["One paper", "[Oral]"]
-green = ["the 40th AAAI [Oral] (CCF A)"]
-
+bold = ["One paper"]
+green = ["the 40th AAAI", "(CCF A)"]
+red = ["[Oral]"]
 
 [[news]]
 date = "2025-09"
