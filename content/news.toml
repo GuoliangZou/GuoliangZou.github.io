@@ -75,9 +75,9 @@ green = ["IEEE Transactions on Neural Networks and Learning Systems (中科院 1
 [[news]]
 date = "2023-05"
 content = "One paper is accepted by Information Processing & Management [Highly Cited Paper] (中科院 1区, TOP), 2023."
-bold = ["One paper", "[Highly Cited Paper]"]
-green = ["Information Processing & Management [Highly Cited Paper] (中科院 1区, TOP)"]
-
+bold = ["One paper"]
+green = ["Information Processing & Management", "(中科院 1区, TOP)"]
+red = ["[Highly Cited Paper]"]
 
 [[news]]
 date = "2022-10"
